@@ -13,7 +13,8 @@
 - DONE: Bootstrapped frontend foundation (Tailwind v4 plugin wired, Pinia store + Axios client + router scaffold, layout shell + starter views); `npm run build` passing.
 - DONE: Built notes UI (list + detail routes with Pinia-backed create/update/delete, validation, and empty/loading/error states; direct navigation fetches single notes); `npm run build` passing.
 - DONE: Added multi-stage Dockerfiles (Go API + nginx static frontend) and docker-compose stack with Postgres, healthchecks, and shared env defaults (.env.example).
-- TODO: add Makefile/runbook polish for local vs docker workflows and any final QA docs.
+- DONE: Added root README runbook, Makefile shortcuts, and graceful API shutdown/logging.
+- TODO: resolve docker-compose CORS note (if still reproducible) and run full compose QA.
 
 ### Docker / Compose usage
 - Defaults live in `.env.example` (copy to `.env` to override).

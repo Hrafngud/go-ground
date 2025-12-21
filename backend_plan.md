@@ -1,6 +1,6 @@
 ## Backend Plan
 
-Status: Note CRUD implemented (repo/service/controllers, routes, validation, tests) and Dockerized API (multi-stage image + compose wiring); remaining polish is observability/DX.
+Status: Note CRUD implemented (repo/service/controllers, routes, validation, tests) and Dockerized API (multi-stage image + compose wiring); observability/DX partially done (graceful shutdown + Makefile targets).
 
 1) Scaffolding
 - Create folders: `cmd/server`, `internal/config`, `internal/db`, `internal/models`, `internal/repository`, `internal/service`, `internal/controller`, `internal/router`, `internal/middleware`.

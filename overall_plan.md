@@ -1,6 +1,6 @@
 ## Overall Plan & Dependencies
 
-Current status: Backend and frontend CRUD flows are in place and containerized (API + nginx frontend + Postgres via compose); next focus is docs/polish.
+Current status: Backend and frontend CRUD flows are in place and containerized (API + nginx frontend + Postgres via compose); root runbook + Makefile added, next focus is QA/CORS polish.
 
 1) Foundations
 - Align env variables for backend/frontend Docker; define `.env.example` (API port, DB URL, frontend base URL).

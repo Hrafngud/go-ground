@@ -1,6 +1,6 @@
 ## Next Task
 
-Polish DX and docs:
-- Add a top-level runbook/README that covers local dev vs docker-compose usage (env vars, ports, commands).
-- Introduce a Makefile with common targets (api dev/test, frontend build, docker compose up/down).
-- If small, wire basic graceful shutdown/logging tweaks on the API entrypoint.
+QA + CORS follow-up:
+- Run `docker compose up --build`, verify API + web + proxy behavior, and capture any errors.
+- If CORS still fails when using exposed ports, adjust defaults (`CORS_ALLOWED_ORIGINS` / docs) accordingly.
+- Update `manager.md` with QA results.
